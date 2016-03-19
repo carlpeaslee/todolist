@@ -12,8 +12,35 @@
 
   </head>
   <body>
-    <p>
-      Totally works
-    </p>
+    <header>
+      <h1>Carl's To Do List</h1>
+    </header>
+
+    <div class='create'>
+      <form>
+        <h2>New ToDo</h2>
+        <label for="task">Task: </label>
+        <input type="text" name="task"/>
+        <br/>
+        <label for="notes">Notes: </label>
+        <input type="text" name="notes"/>
+        <br/>
+        <label for="status">Priority: </label>
+        <input type="number" name="status"/>
+        <br/>
+        <input type="submit"/>
+      </form>
+    </div>
+    <div class="todolist">
+      <div class="active">
+        <div class="priority-1"><p></p></div>
+        <div class="priority-2"></div>
+        <div class="priority-3"></div>
+      </div>
+      <div class="inactive">
+        <div class="priority-0"></div>
+        <div class="priority-4"></div>
+      </div>
+    </div>
   </body>
 </html>

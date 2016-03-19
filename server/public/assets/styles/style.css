@@ -1,0 +1,59 @@
+header {
+  text-align: center;
+}
+
+.create {
+  display: block;
+  position: fixed;
+  left: 5%;
+  width: 25%;
+}
+
+.todolist {
+  left: 30%;
+  width: 65%;
+  position: absolute;
+}
+
+.active {
+  background-color: green;
+  width: 40%;
+  position: absolute;
+}
+
+.inactive {
+  background-color: grey;
+  width: 40%;
+  position: absolute;
+  left: 50%;
+}
+
+.priority-0 {
+  left: 50%;
+  background-color: purple;
+}
+
+.priority-4 {
+  left: 50%;
+  background-color: red;
+}
+
+.status-1-important {
+  background-color: blue;
+}
+
+.status-2-medium {
+  background-color: lightskyblue;
+}
+
+.status-3-trivial {
+  background-color: lightcyan;
+}
+
+.status-0-done {
+  background-color: grey;
+}
+
+.status-4-deleted {
+  background-color: orange;
+}
