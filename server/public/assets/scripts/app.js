@@ -55,7 +55,7 @@ function appendTodoList(todoArray) {
         case 0:
           $('.priority-0').append('<div data-id="' + todo.id + '" class="status-0-done">' +
                               '<h3>' + todo.task + '</h3>' +
-                              '<h3>' + todo.notes + '</h3>' +
+                              '<p>' + todo.notes + '</p>' +
                               '<button data-status="2" class="mark-active">Reactivate</button>' +
                               '</div>'
           );
@@ -63,7 +63,7 @@ function appendTodoList(todoArray) {
         case 1:
           $('.priority-1').append('<div data-id="' + todo.id + '" class="status-1-important">' +
                               '<h3>' + todo.task + '</h3>' +
-                              '<h3>' + todo.notes + '</h3>' +
+                              '<p>' + todo.notes + '</p>' +
                               '<button data-status="0" class="mark-completed">Completed</button>' +
                               '<button data-status="4" class="mark-deleted">Delete</button>' +
                               '<button data-status="2" class="mark-medium">Medium</button>' +
@@ -74,7 +74,7 @@ function appendTodoList(todoArray) {
         case 2:
           $('.priority-2').append('<div data-id="' + todo.id + '" class="status-2-medium">' +
                             '<h3>' + todo.task + '</h3>' +
-                            '<h3>' + todo.notes + '</h3>' +
+                            '<p>' + todo.notes + '</p>' +
                             '<button data-status="0" class="mark-completed">Completed</button>' +
                             '<button data-status="4" class="mark-deleted">Delete</button>' +
                             '<button data-status="1" class="mark-medium">Important</button>' +
@@ -85,7 +85,7 @@ function appendTodoList(todoArray) {
         case 3:
           $('.priority-3').append('<div data-id="' + todo.id + '" class="status-3-trivial">' +
                             '<h3>' + todo.task + '</h3>' +
-                            '<h3>' + todo.notes + '</h3>' +
+                            '<p>' + todo.notes + '</p>' +
                             '<button data-status="0" class="mark-completed">Completed</button>' +
                             '<button data-status="4" class="mark-deleted">Delete</button>' +
                             '<button data-status="1" class="mark-medium">Important</button>' +
@@ -96,7 +96,7 @@ function appendTodoList(todoArray) {
         case 4:
           $('.priority-4').append('<div data-id="' + todo.id + '" class="status-4-deleted">' +
                             '<h3>' + todo.task + '</h3>' +
-                            '<h3>' + todo.notes + '</h3>' +
+                            '<p>' + todo.notes + '</p>' +
                             '<button data-status="2" class="mark-active">Reactivate</button>' +
                             '</div>'
           );
